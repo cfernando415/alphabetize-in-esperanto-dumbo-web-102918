@@ -1,11 +1,10 @@
 require 'pry'
 def alphabetize(arr)
   # code here
+  ea = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |esperanto_alphabet|
-    #binding.pry
     esperanto_alphabet.chars.collect do |i|
-      binding.pry 
+      ea.chars.index(i)
     end
-    #binding.pry
   end
 end
