@@ -3,6 +3,6 @@ def alphabetize(arr)
   # code here
   arr.sort_by do |esperanto_alphabet|
     #binding.pry
-    esperanto_alphabet.char
+    esperanto_alphabet.chars
   end
 end
