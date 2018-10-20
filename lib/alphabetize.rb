@@ -4,5 +4,6 @@ def alphabetize(arr)
   arr.sort_by do |esperanto_alphabet|
     #binding.pry
     esperanto_alphabet.chars
+    binding.pry
   end
 end
